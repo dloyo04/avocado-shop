@@ -13,5 +13,9 @@
     "pretty-quick": "^3.1.0",
     "snowpack": "^3.0.11",
     "tailwindcss": "^2.0.2"
+  },
+  "dependencies": {
+    "create-snowpack-app": "^1.10.0",
+    "tough-cookie": "^4.1.4"
   }
 }
