@@ -3,7 +3,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build/dist",
     "format": "prettier --write \"src/**/*.js\"",
     "install:husky": "husky install",
     "lint": "prettier --check \"src/**/*.js\"",
@@ -22,5 +22,5 @@
     "save-dev": "^0.0.1-security",
     "tough-cookie": "^4.1.4"
   },
-  "homepage": "."
+  "homepage": "https://dloyo04.github.io/avocado-shop"
 }
